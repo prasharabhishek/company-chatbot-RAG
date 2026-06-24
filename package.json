@@ -1,10 +1,14 @@
 {
-  "name": ".",
+  "name": "company-chatbot-rag",
   "module": "index.js",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
   },
+  "scripts": {
+  "prepare": "bun prepare.js",
+  "chat": "bun chat.js"
+},
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
